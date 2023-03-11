@@ -18,7 +18,6 @@ public class ToVerifyHomePageTitleTest extends BaseClass {
 		String actualTitle = driver.getTitle();
 		Assert.assertTrue(actualTitle.contains(expectedTitle));
 		System.out.println("The Title has been verified");
-		
 	}
 
 }
