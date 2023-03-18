@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import actitiime.genericUtility.BaseClass;
 import actitiime.genericUtility.WebDriverUtility;
 
-public class ToVerifyHomePageTitle extends BaseClass {
+public class ToVerifyHomePageTitleTest extends BaseClass {
 	
 	@Test
 	public void verifyHomePageTest() {
